@@ -1,0 +1,85 @@
+
+--- Template ---
+
+Correlation / Comparison of Mean / Comparison of Proportions
+
+Project Title:
+Research Question: 
+
+Dependent/InDependent Variable: 
+Dependent/InDependent Variable:
+
+Null hypothesis (H0): 
+Alternative hypothesis (H1):
+
+--- 1 ---
+Correlation
+
+Project Title: Relationship between daily mean temperature and cloud cover in London (1979-2020)
+Research Question: Is there a correlation between daily mean temperature and relative humidity in London?
+
+Dependent Variable: mean_temp (Interval)
+Independent Variable: cloud_cover (Interval)
+
+Null hypothesis (H₀): There is no correlation between daily mean temperature and relative humidity in the London dataset.
+Alternative hypothesis (H₁): There is a correlation between daily mean temperature and relative humidity in the London dataset.
+
+--- 2 ---
+Correlation
+
+Project Title: An Analysis of the Correlation Between Sunshine Duration and Maximum Temperature in London (1979-2020)
+Research Question: Is there a correlation between maximum temperature and sunshine duration in London?
+
+Dependent Variable: max_temp (Interval)
+InDependent Variable: sunshine (Interval)
+
+Null hypothesis (H0): There is no correlation between maximum temperature and sunshine duration in London
+Alternative hypothesis (H1): There is a correlation between maximum temperature and sunshine duration in London.
+
+--- 3 ---
+Comparison of Mean
+
+Project Title: Seasonal differences in mean daily temperature in London (1979-2020)
+Research Question: Is there a difference in mean daily temperature between seasons (e.g., Winter vs Summer) in London?
+
+Dependent Variable: mean_temp (Interval)
+InDependent Variable: date -> Season (Nominal)
+
+Null hypothesis (H0): There is no difference in the mean daily temperature between the selected seasons
+Alternative hypothesis (H1): There is a difference in the mean daily temperature between the selected seasons.
+
+--- 4 ---
+Comparison of Mean
+
+Project Title: A Comparative Analysis of Mean Daily Temperatures Across Seasons in London (1979-2020)
+Research Question: Is there a difference in the mean of mean daily temperature among the seasons in London?
+
+Dependent Variable: mean_temp (Interval)
+InDependent Variable: date -> Season (Nominal)
+
+Null hypothesis (H0): There is no difference in the mean of mean daily temperature among the seasons in London.
+Alternative hypothesis (H1): There is a difference in the mean of mean daily temperature among the seasons in London.
+
+--- 5 ---
+Comparison of Proportions
+
+Project Title: Seasonal variation in the proportion of rainy days in London (1979-2020)
+Research Question: Is the proportion of rainy days different between Autumn and Spring in London?
+
+Dependent Variable: precipitation -> RainyDay (Nominal)
+InDependent Variable: date -> Season (Nominal)
+
+Null hypothesis (H0): There is no difference in the proportion of rainy days between Autumn and Spring.
+Alternative hypothesis (H1): There is a difference in the proportion of rainy days between Autumn and Spring.
+
+--- 6 ---
+Comparison of Proportions
+
+Project Title: A Proportional Analysis of Precipitation Days by Season in London (1979-2020)
+Research Question: Is there a difference in the proportions of precipitation days among the seasons in London?
+
+Dependent Variable: Day_With_Precipitation (Nominal)
+InDependent Variable: date -> Season (Nominal)
+
+Null hypothesis (H0): There is no difference in the proportions of precipitation days among the seasons in London.
+Alternative hypothesis (H1): There is a difference in the proportions of precipitation days among the seasons in London.
