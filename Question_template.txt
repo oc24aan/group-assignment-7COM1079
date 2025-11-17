@@ -1,0 +1,12 @@
+--- Template ---
+
+Correlation / Comparison of Mean / Comparison of Proportions
+
+Project Title:
+Research Question: 
+
+Dependent/InDependent Variable: 
+Dependent/InDependent Variable:
+
+Null hypothesis (H0): 
+Alternative hypothesis (H1):
