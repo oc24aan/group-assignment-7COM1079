@@ -40,7 +40,7 @@ Null hypothesis (H0): There is no difference in the mean maximum daily temperatu
 Alternative hypothesis (H1): There is a difference in the mean maximum daily temperature among the four seasons in London.
 
 
---- 3 ---
+--- 3 ----
 
 Comparison of Proportions
 
