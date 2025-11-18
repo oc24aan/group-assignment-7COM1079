@@ -1,0 +1,54 @@
+--- Template ---
+
+Correlation / Comparison of Mean / Comparison of Proportions
+
+Project Title:
+Research Question: 
+
+Dependent/InDependent Variable: 
+Dependent/InDependent Variable:
+
+Null hypothesis (H0): 
+Alternative hypothesis (H1):
+
+
+--- 1 ---
+
+Correlation 
+
+Project Title: Relationship Between Global Radiation and Sunshine Duration in London (1979–2020)
+Research Question: Is there a correlation between daily global radiation and sunshine duration in London?
+
+Dependent Variable: global_radiation (Interval)
+InDependent Variable: sunshine (Interval)
+
+Null hypothesis (H0): There is no correlation between daily global radiation and sunshine duration in London.
+Alternative hypothesis (H1): There is a correlation between daily global radiation and sunshine duration in London.
+
+
+--- 2 ---
+
+Comparison of Mean 
+
+Project Title: Seasonal Differences in Mean Maximum Temperature in London (1979–2020)
+Research Question: Is there a difference in the mean maximum daily temperature among the four seasons in London?
+
+Dependent Variable: max_temp (Interval)
+InDependent Variable: date → Season (Nominal)
+
+Null hypothesis (H0): There is no difference in the mean maximum daily temperature among the four seasons in London.
+Alternative hypothesis (H1): There is a difference in the mean maximum daily temperature among the four seasons in London.
+
+
+--- 3 ---
+
+Comparison of Proportions
+
+Project Title: Difference in Days with Snow on the Ground Between Winter and Summer in London (1979–2020)
+Research Question: Is the proportion of days with snow on the ground (snow_depth > 0) different between Winter and Summer in London?
+
+Dependent Variable: snow_depth → SnowDay (Nominal)
+InDependent Variable: date → Season (Nominal)
+
+Null hypothesis (H0): There is no difference in the proportion of days with snow on the ground between Winter and Summer in London.
+Alternative hypothesis (H1): There is a difference in the proportion of days with snow on the ground between Winter and Summer in London.
