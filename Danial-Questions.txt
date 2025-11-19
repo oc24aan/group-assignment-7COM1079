@@ -1,4 +1,3 @@
-
 --- Template ---
 
 Correlation / Comparison of Mean / Comparison of Proportions
@@ -59,6 +58,18 @@ InDependent Variable: date -> Season (Nominal)
 
 Null hypothesis (H0): There is no difference in the mean of mean daily temperature among the seasons in London.
 Alternative hypothesis (H1): There is a difference in the mean of mean daily temperature among the seasons in London.
+
+--- 4.1 !! ---
+Comparison of Mean
+
+Project Title: A Comparative Analysis of Mean Precipitation Rates Across Seasons in London (1979-2020)
+Research Question: Is there a difference in the mean of daily precipitation between/among the seasons in London?
+
+Dependent Variable: precipitation (Interval)
+InDependent Variable: date -> Season (Nominal)
+
+Null hypothesis (H0): There is no difference in the mean of daily precipitation among the seasons in London.
+Alternative hypothesis (H1): There is a difference in the mean of daily precipitation among the seasons in London.
 
 --- 5 ---
 Comparison of Proportions
