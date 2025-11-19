@@ -1,0 +1,35 @@
+
+Correlation
+
+Research Question: Is there a correlation between daily cloud cover and sunshine duration in London?
+
+Dependent Variable: sunshine (Interval)
+Independent Variable: cloud_cover (Interval)
+
+Null hypothesis (H0): There is no correlation between daily cloud cover and sunshine duration in London.
+Alternative hypothesis (H1): There is a correlation between daily cloud cover and sunshine duration in London.
+
+----
+
+Comparison of Mean
+
+Research Question: Is there a difference in the mean daily global radiation between Summer and Winter in London?
+
+Dependent Variable: global_radiation (Interval)
+
+Independent Variable: date → Season 
+
+Null hypothesis (H0): There is no difference in the mean daily global radiation between Summer and Winter.
+Alternative hypothesis (H1): There is a difference in the mean daily global radiation between Summer and Winter.
+
+----
+
+Comparison of Proportions
+
+Research Question: Is the proportion of high-pressure days (pressure > 102000 Pa) different between Autumn and Spring in London?
+
+Dependent Variable: pressure → HighPressureDay (Nominal: Yes if > 102000, No if ≤ 102000)
+Independent Variable: date → Season (Nominal: Autumn vs. Spring)
+
+Null hypothesis (H0): There is no difference in the proportion of high-pressure days between Autumn and Spring.
+Alternative hypothesis (H1): There is a difference in the proportion of high-pressure days between Autumn and Spring.
