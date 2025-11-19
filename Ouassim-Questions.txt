@@ -1,0 +1,85 @@
+“--- Template ---
+
+Correlation / Comparison of Mean / Comparison of Proportions
+
+Project Title:
+Research Question: 
+
+Dependent/InDependent Variable: 
+Dependent/InDependent Variable:
+
+Null hypothesis (H0): 
+Alternative hypothesis (H1):”
+--------------------------------------------
+
+- 1 -
+
+Comparison of Mean
+
+Project Title:
+How Windy Is Each Season? A Seasonal Comparison of Daily Wind Speed in London (1979–2020)
+
+Research Question:
+Does the average daily wind speed differ across the four seasons in London?
+
+Dependent Variable:
+	•	wind_speed (Interval)
+
+Independent Variable:
+	•	date → Season (Nominal)
+
+Null hypothesis (H0):
+There is no difference in the mean daily wind speed among the seasons in London.
+
+Alternative hypothesis (H1):
+There is a difference in the mean daily wind speed among the seasons.
+
+⸻
+
+
+— 2 -
+
+Correlation
+
+Project Title:
+Does London Get Windier When It Rains? Exploring the Link Between Precipitation and Wind Speed
+
+Research Question:
+Is there a correlation between daily precipitation and wind speed in London?
+
+Dependent Variable:
+	•	wind_speed (Interval)
+
+Independent Variable:
+	•	precipitation (Interval)
+
+Null hypothesis (H0):
+There is no correlation between daily precipitation and wind speed in London.
+
+Alternative hypothesis (H1):
+There is a correlation between daily precipitation and wind speed in London.
+
+⸻
+
+
+— 3 —
+
+Comparison of Proportions
+
+Project Title:
+Are Sunny Days More Common in Summer? A Seasonal Look at Sunshine Hours in London
+
+Research Question:
+Is the proportion of days with more than 2 hours of sunshine higher in Summer compared to Winter?
+
+Dependent Variable:
+	•	sunshine → SunnyDay (Nominal: Yes/No)
+
+Independent Variable:
+	•	date → Season (Nominal)
+
+Null hypothesis (H0):
+There is no difference in the proportion of sunny days between Summer and Winter.
+
+Alternative hypothesis (H1):
+There is a difference in the proportion of sunny days between the two seasons.
