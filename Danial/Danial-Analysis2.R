@@ -89,11 +89,11 @@ pairwise.wilcox.test(df$precipitation, df$season, p.adjust.method = "holm")
 test_result <- pairwise.wilcox.test(df$precipitation, df$year, p.adjust.method = "holm")
 y_table <- test_result$p.value
 print(y_table)
-write.csv(y_table, "year_p_values.csv")
+write.csv(y_table, "Danial/year_p_values.csv")
 
 test_result <- pairwise.wilcox.test(df$precipitation, df$season_year, p.adjust.method = "holm")
 sy_table <- test_result$p.value
 print(sy_table)
-write.csv(sy_table, "season_year_p_values.csv")
+write.csv(sy_table, "Danial/season_year_p_values.csv")
 
 
