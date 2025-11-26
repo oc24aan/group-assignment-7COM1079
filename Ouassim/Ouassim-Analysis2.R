@@ -25,8 +25,7 @@ df <- df %>%
       month %in% c(3, 4, 5) ~ "Spring",
       month %in% c(6, 7, 8) ~ "Summer",
       month %in% c(9, 10, 11) ~ "Autumn"
-    ),
-    season_year = paste(season, year)
+    )
   )
 
 # Order seasons logically for plotting
@@ -35,17 +34,14 @@ df$season <- factor(df$season, levels = c("Winter", "Spring", "Summer", "Autumn"
 # Filter out rows with missing precipitation values
 df <- df %>% filter(!is.na(precipitation))
 
-# Plot 1: Histogram of overall daily precipitation with normal curve
-mean_precip <- mean(df$precipitation, na.rm = TRUE)
-sd_precip <- sd(df$precipitation, na.rm = TRUE)
+# Create your results directory if it doesn't exist
+dir.create("Ouassim/results", recursive = TRUE, showWarnings = FALSE)
 
+# Plot 1: Histogram of overall daily precipitation
 p1 <- ggplot(df, aes(x = precipitation)) +
-  geom_histogram(binwidth = 1, fill = "steelblue", color = "white", alpha = 0.7) +
-  stat_function(fun = function(x) {
-    dnorm(x, mean = mean_precip, sd = sd_precip) * nrow(df) * 1 # scale density to counts
-  }, color = "red", size = 1) +
+  geom_histogram(binwidth = 1, fill = "steelblue", color = "white") +
   labs(
-    title = "Distribution of Daily Precipitation in London (1979–2020) with Normal Curve",
+    title = "Distribution of Daily Precipitation in London (1979–2020)",
     x = "Daily Precipitation (mm)",
     y = "Frequency"
   ) +
@@ -84,29 +80,14 @@ p3 <- season_stats %>%
   theme_minimal() +
   theme(legend.position = "none")
 
-# Statistical tests: Wilcoxon pairwise tests
+# Statistical test: Wilcoxon pairwise test to compare seasons
+wilcox_test <- pairwise.wilcox.test(df$precipitation, df$season, p.adjust.method = "holm")
+print(wilcox_test$p.value)
 
-# 1. By season
-wilcox_season <- pairwise.wilcox.test(df$precipitation, df$season, p.adjust.method = "holm")
-print(wilcox_season$p.value)
+# Save p-values to CSV inside your folder
+write.csv(wilcox_test$p.value, "Ouassim/results/season_precipitation_pvalues.csv")
 
-# 2. By year (might be heavy if too many years)
-wilcox_year <- pairwise.wilcox.test(df$precipitation, as.factor(df$year), p.adjust.method = "holm")
-print(wilcox_year$p.value)
-
-# 3. By season-year combination
-wilcox_season_year <- pairwise.wilcox.test(df$precipitation, df$season_year, p.adjust.method = "holm")
-print(wilcox_season_year$p.value)
-
-# Create results directory if not exists
-if(!dir.exists("results")) dir.create("results")
-
-# Save p-values to CSV
-write.csv(wilcox_season$p.value, "results/season_precipitation_pvalues.csv")
-write.csv(wilcox_year$p.value, "results/year_precipitation_pvalues.csv")
-write.csv(wilcox_season_year$p.value, "results/season_year_precipitation_pvalues.csv")
-
-# Plot 4: Faceted histograms of precipitation by season
+# Plot 4 : Faceted histograms of precipitation by season
 p4 <- ggplot(df, aes(x = precipitation)) +
   geom_histogram(binwidth = 1, fill = "steelblue", color = "white") +
   facet_wrap(~season) +
@@ -117,13 +98,13 @@ p4 <- ggplot(df, aes(x = precipitation)) +
   ) +
   theme_minimal()
 
-# Save all plots
-ggsave("results/histogram_precipitation_normal_curve.png", plot = p1, width = 8, height = 5)
-ggsave("results/boxplot_precipitation_season.png", plot = p2, width = 8, height = 5)
-ggsave("results/mean_precipitation_season.png", plot = p3, width = 8, height = 5)
-ggsave("results/faceted_precipitation_histograms.png", plot = p4, width = 8, height = 5)
+# Save all plots inside your folder
+ggsave("Ouassim/results/histogram_precipitation.png", plot = p1, width = 8, height = 5)
+ggsave("Ouassim/results/boxplot_precipitation_season.png", plot = p2, width = 8, height = 5)
+ggsave("Ouassim/results/mean_precipitation_season.png", plot = p3, width = 8, height = 5)
+ggsave("Ouassim/results/faceted_precipitation_histograms.png", plot = p4, width = 8, height = 5)
 
-# Create and save separate histograms for each season
+# Create separate histograms for each season and save them individually inside your folder
 seasons <- levels(df$season)
 
 for (s in seasons) {
@@ -136,6 +117,6 @@ for (s in seasons) {
     ) +
     theme_minimal()
   
-  ggsave(filename = paste0("results/precipitation_histogram_", tolower(s), ".png"),
+  ggsave(filename = paste0("Ouassim/results/precipitation_histogram_", tolower(s), ".png"),
          plot = p, width = 8, height = 5)
 }
