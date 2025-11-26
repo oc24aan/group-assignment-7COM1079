@@ -73,6 +73,11 @@ hist(df$precipitation,
      las = 1,
 )
 
+curve(dnorm(x, mean(df$precipitation, na.rm = TRUE), sd(df$precipitation, na.rm = TRUE)), 
+      col = "blue", 
+      lwd = 2,      
+      add = TRUE)
+
 boxplot(precipitation ~ season, data = df,
         main = "Daily Precipitation in London by Season from 1979 to 2020",
         xlab = "Season",
