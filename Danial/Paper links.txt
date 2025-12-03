@@ -1,0 +1,12 @@
+Daily dataset of 20th-century surface air temperature and precipitation series for the European Climate Assessment
+https://rmets.onlinelibrary.wiley.com/doi/10.1002/joc.773
+Klein Tank, A.M.G. et al. (2002) 'Daily dataset of 20th-century surface air temperature and precipitation series for the European Climate Assessment', International Journal of Climatology, 22(12), pp. 1441–1453.
+
+
+Evidence for trends in heavy rainfall events over the UK 
+https://royalsocietypublishing.org/rsta/article-abstract/360/1796/1313/51556/Evidence-for-trends-in-heavy-rainfall-events-over?redirectedFrom=fulltext
+Osborn, T.J. and Hulme, M. (2002) 'Evidence for trends in heavy rainfall events over the UK', Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 360(1796), pp. 1313–1325.
+
+State of the UK Climate 2022
+https://rmets.onlinelibrary.wiley.com/doi/10.1002/joc.8167
+Kendon, M., McCarthy, M., Jevrejeva, S., Matthews, A., Williams, T. and Legg, T. (2023) 'State of the UK Climate 2022', International Journal of Climatology, 43(S1), pp. 1–76.
