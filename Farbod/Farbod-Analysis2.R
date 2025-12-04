@@ -59,3 +59,11 @@ bar_centers <- barplot(means,
                        ylab="Mean Precipitation (mm)",
                        main="Mean Daily Precipitation by Season")
 
+test_result <- pairwise.wilcox.test(df$precipitation, df$year, p.adjust.method = "holm")
+y_p_value_table <- test_result$p.value
+write.csv(y_p_value_table,"Farbod/p_values_years.csv")
+
+test_result <- pairwise.wilcox.test(df$precipitation, df$season_year, p.adjust.method = "holm")
+s_p_value_table <- test_result$p.value
+write.csv(s_p_value_table, "Farbod/p_values_seasons.csv")
+
