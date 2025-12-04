@@ -14,21 +14,14 @@ df$season[df$month %in% c(6,7,8)] <- "Summer"
 
 df <- df[!is.na(df$precipitation), ]
 
-
-# 1. Kruskal–Wallis Test
-
-kruskal_res <- kruskal.test(precipitation ~ season, data = df)
-print(kruskal_res)
-
-
-# 2. Pairwise Wilcoxon
+# Pairwise Wilcoxon
 
 pairwise_res <- pairwise.wilcox.test(df$precipitation, df$season,
                                      p.adjust.method = "holm")
 print(pairwise_res)
 
 
-# 3. Boxplot
+# Boxplot
 
 boxplot(precipitation ~ season, data = df,
         main = "Daily Precipitation in London by Season (1979–2020)",
@@ -37,7 +30,7 @@ boxplot(precipitation ~ season, data = df,
         col = c("orange","lightgreen","lightblue","lightgray"))
 
 
-# 4. Histogram + Density per Season
+# Histogram + Density per Season
 
 par(mfrow=c(2,2))
 for(s in c("Winter","Spring","Summer","Autumn")){
@@ -53,7 +46,7 @@ for(s in c("Winter","Spring","Summer","Autumn")){
 par(mfrow=c(1,1))  # Reset
 
 
-# 5. Mean Precipitation Barplot
+# Mean Precipitation Barplot
 
 seasons <- c("Winter","Spring","Summer","Autumn")
 means <- tapply(df$precipitation, df$season, mean)
@@ -65,4 +58,12 @@ bar_centers <- barplot(means,
                        ylim=c(0, max(means+ses)*1.1),
                        ylab="Mean Precipitation (mm)",
                        main="Mean Daily Precipitation by Season")
+
+test_result <- pairwise.wilcox.test(df$precipitation, df$year, p.adjust.method = "holm")
+y_p_value_table <- test_result$p.value
+write.csv(y_p_value_table,"Farbod/p_values_years.csv")
+
+test_result <- pairwise.wilcox.test(df$precipitation, df$season_year, p.adjust.method = "holm")
+s_p_value_table <- test_result$p.value
+write.csv(s_p_value_table, "Farbod/p_values_seasons.csv")
 
