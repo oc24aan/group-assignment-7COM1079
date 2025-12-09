@@ -1,0 +1,361 @@
+commit c1c4f619207a197001e4a8ef13a99e0b40f5b372
+Author: do25ab <do25abe@herts.ac.uk>
+Date:   Tue Dec 9 14:57:59 2025 +0000
+
+    Contribution to the conclusion part of the final report documents. Here we see how the the visualization and test both agree with the research question.
+
+commit d41341fc0f93a608f92b478b40ce6f4e3fce8791
+Author: fc24aax <fc24aax@herts.ac.uk>
+Date:   Tue Dec 9 00:11:54 2025 +0000
+
+    Expand visualisation section in final report
+    
+    - Added seasonal precipitation boxplot
+    - Added histogram with density line for daily rainfall
+    - Updated narrative in sections 3.1–3.3 to reflect new visuals
+    - Improved clarity of explanations for seasonal weather patterns
+    - Added drafts for next section ( Analysis )
+
+commit 6019776d87853f917a4df0434c1a97d39ffa029a
+Author: fc24aax <fc24aax@herts.ac.uk>
+Date:   Tue Dec 9 00:04:49 2025 +0000
+
+    Expand visualisation section in final report
+    
+    - Added seasonal precipitation boxplot
+    - Added histogram with density line for daily rainfall
+    - Updated narrative in sections 3.1–3.3 to reflect new visuals
+    - Improved clarity of explanations for seasonal weather patterns
+    - Added drafts for next section ( Analysis )
+
+commit 664844d0e433cd4b3de2010fd0b388ddc6b412db
+Author: fc24aax <fc24aax@herts.ac.uk>
+Date:   Tue Dec 9 00:02:24 2025 +0000
+
+    Expand visualisation section in final report
+    
+    - Added seasonal precipitation boxplot
+    - Added histogram with density line for daily rainfall
+    - Updated narrative in sections 3.1–3.3 to reflect new visuals
+    - Improved clarity of explanations for seasonal weather patterns
+    - adding drafts for next section ( Analysis )
+
+commit 49e9af7ce99310b196086948ab1306f3c797738c
+Author: do25ab <do25abe@herts.ac.uk>
+Date:   Mon Dec 8 19:22:42 2025 +0000
+
+    My contribution to the word document towards the final project documentation. In it is updated to the visualisation part of the documents.
+
+commit 3175fc61883d68d36270eeaf01f5b8aca95050b0
+Author: do25ab <do25abe@herts.ac.uk>
+Date:   Mon Dec 8 11:49:22 2025 +0000
+
+    my first contribution to final word documents for team presentation
+
+commit 8089e3d3588dc65fd219f73520e5c72005545bd5
+Author: fc24aax <fc24aax@herts.ac.uk>
+Date:   Sun Dec 7 02:01:53 2025 +0000
+
+    Add complete Background Research and initial Visualisation draft
+    
+    - Background Research section fully updated with three relevant references and literature analysis.
+    - 3.1 Visualization section added as a draft.
+
+commit 62a4b677d8787a9043c05914626698871253d019
+Author: fc24aax <fc24aax@herts.ac.uk>
+Date:   Sat Dec 6 01:02:36 2025 +0000
+
+    Update sections: Introduction and Data Set with latest details
+
+commit 960778d9ef66f360011fd83dfa773410420b77e4
+Author: fc24aax <fc24aax@herts.ac.uk>
+Date:   Fri Dec 5 02:55:29 2025 +0000
+
+    Add full draft of Introduction section (1.1–1.4)
+
+commit c05a61c10b8821e8026801ece681590f0d1c2807
+Author: fc24aax <fc24aax@herts.ac.uk>
+Date:   Thu Dec 4 18:51:34 2025 +0000
+
+    Update farbod_Analysis2.R code and add p_values_seasons.csv and p_values_years.csv to new branch
+
+commit 94736c2ac74f329356fb59dd39369534a7628e90
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Wed Dec 3 21:12:39 2025 +0000
+
+    - Majur important problems added with Red color which needs to check before submition.
+
+commit 1f32ae23068c22a5852854b86bedd86f5f456670
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Wed Dec 3 21:10:59 2025 +0000
+
+    - Completed up to section 3
+    Added 'paper links.txt' with paper citations and links
+
+commit bb4581db778a61ef9963ad2315f5265d9ffd3768
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Sat Nov 29 18:42:46 2025 +0000
+
+    feat: Every member DOC file created.
+
+commit af1d9b5cfb74bc1fd521b0cdc28395fdec174245
+Merge: e249afc 0a0235e
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Sat Nov 29 18:12:58 2025 +0000
+
+    Merge branch '2_visualisation': Added R scripts and generated plots for Research Question from each team member
+    
+    Merge branch '2_visualisation'
+    # Please enter a commit message to explain why this merge is necessary,
+    # especially if it merges an updated upstream into a topic branch.
+    #
+    # Lines starting with '#' will be ignored, and an empty message aborts
+    # the commit.
+
+commit 0a0235e22fbc7f7d6b92c816a6b239fb3fcf17cb
+Author: do25ab <do25abe@herts.ac.uk>
+Date:   Fri Nov 28 13:03:57 2025 +0000
+
+    R codes for data visualisation: this include codes for boxplot and histogram with distribution curve overlay
+
+commit ff979464bf42b37de97656c7b4a7803b3dac8475
+Author: Jayakumar Mahesh <jm25acy@herts.ac.uk>
+Date:   Fri Nov 28 01:14:40 2025 +0000
+
+    "Added mean perception of an season"
+
+commit 25dec3b679a055605ed7826b4bd06d6f6b0307c6
+Author: fc24aax <fc24aax@herts.ac.uk>
+Date:   Thu Nov 27 20:16:24 2025 +0000
+
+    adding visualization about mean precipitation between seasons of year
+    Kruskal Wallis test, Pairwise Wilcoxon test, Boxplots, histogram with density curves and bar plots
+
+commit 3c14e4ee26c81df82a10079e36bed0a1c473d8e0
+Author: oc24aan <oc24aan@herts.ac.uk>
+Date:   Wed Nov 26 19:21:14 2025 +0100
+
+    Move results folder to Ouassim's directory
+
+commit 56f63e94f2aeeb1acca6910fa5edcba5a0c9b159
+Author: oc24aan <oc24aan@herts.ac.uk>
+Date:   Wed Nov 26 19:19:08 2025 +0100
+
+    Add analysis results (plots and CSVs) to results folder inside Ouassim's directory
+
+commit 604d61729f014a69743f7f58cdc954d705ad4d0f
+Author: Ouassim Ahmed Ramy Chelghoum <oc24aan@herts.ac.uk>
+Date:   Wed Nov 26 18:57:45 2025 +0100
+
+    Delete Ouassim/Oassim directory
+
+commit 9cb5f20ddbf6288b247af26c78aff0da69a02b77
+Author: oc24aan <oc24aan@herts.ac.uk>
+Date:   Wed Nov 26 18:53:18 2025 +0100
+
+    Remove old results folder
+
+commit 0f95ced9e2b5ba566cdf24016b6e8597841a3605
+Author: oc24aan <oc24aan@herts.ac.uk>
+Date:   Wed Nov 26 18:49:39 2025 +0100
+
+    Move all results files into Ouassim's repo
+
+commit 48dd2c7e9aa97f1cd28bb4145fd5e58e4140b5ee
+Author: oc24aan <oc24aan@herts.ac.uk>
+Date:   Wed Nov 26 18:36:33 2025 +0100
+
+    Moved results folder ins Oassim's directory
+
+commit d1c9f50fab0e4d1d863f8339ac868be86dc5062b
+Author: oc24aan <oc24aan@herts.ac.uk>
+Date:   Wed Nov 26 18:32:37 2025 +0100
+
+    Move results folder inside Ouassim's directory
+
+commit 2b317fdccd1cffac2950072374b82d96e633fbe2
+Author: oc24aan <oc24aan@herts.ac.uk>
+Date:   Wed Nov 26 18:16:37 2025 +0100
+
+    Add visualizations and p-value CSVs for precipitation analysis
+
+commit 9b9fc0a6ebf49302943a6e69f34cebbc91ca764b
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Wed Nov 26 16:00:41 2025 +0000
+
+    refactor: Normal line added to the Histogram graph - PPTX and PDF file updated
+
+commit 3aaddfe7b1381f4cd5a18f6ec4f10a7e819f5be1
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Wed Nov 26 13:11:00 2025 +0000
+
+    feat: Final PPTX and PDF version of presentation created.
+
+commit 1d4a42d29bb72846041a8f9720cb3d42c2c2a04a
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Wed Nov 26 13:06:25 2025 +0000
+
+    refactor: move csv files to 'danial' directory
+
+commit 0fa04996be2cd9053d2818f2d697ee71c9819133
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Wed Nov 26 13:02:48 2025 +0000
+
+    feat: add precipitation analysis script, visualizations, and final vwesion of second presentation
+    
+    This commit introduces the analysis for the London Weather from 1979 to 2020. Changes included: Added R script for statistical testing, generated Histogram and Boxplot visualizations, and included the final PowerPoint presentation.
+
+commit 6576732fc4069d3919c61fb09f75474ca6eaee9e
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Sun Nov 23 15:34:52 2025 +0000
+
+    feat: Every members folder crearted with the files which they need for Visualization and Analysis Demo
+    The question file and hypoteses pdf created
+
+commit e249afcb74c7c831022163db95539ec87417a701
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Sun Nov 23 15:13:59 2025 +0000
+
+    feat: Project Question updated with the Professors advices
+
+commit 0b40720420c64795dfabdc971ada7b76dc1d3194
+Author: do25ab <do25abe@herts.ac.uk>
+Date:   Fri Nov 21 13:54:01 2025 +0000
+
+    final intro
+
+commit 4d6d73f2100fea50b7906b9163d9cee89057790a
+Author: do25ab <do25abe@herts.ac.uk>
+Date:   Fri Nov 21 13:48:22 2025 +0000
+
+    2 test line added
+
+commit ef4794d63b60999f16438090e0ed90a1cf58f823
+Author: do25ab <do25abe@herts.ac.uk>
+Date:   Fri Nov 21 13:45:55 2025 +0000
+
+    David File Created.
+
+commit 78bc1b98e925ecc3f724993229fc6acfaea64cb2
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Wed Nov 19 16:00:25 2025 +0000
+
+    Question Presentation Done - Question Confirmed
+
+commit d7533c1ea4a2e45d339189d4dc297311505095e1
+Author: fc24aax <fc24aax@herts.ac.uk>
+Date:   Wed Nov 19 14:26:41 2025 +0000
+
+    Farbod's questions have been pushed.
+
+commit 9a079fe174ce5f2856bac1abe002107b9596e623
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Wed Nov 19 13:55:41 2025 +0000
+
+    Test file removed
+
+commit d2cdfd6565659084d75b9269ac225b3c17e45834
+Author: Danial Zafaranchizadeh Moghaddam <33610543+danialza@users.noreply.github.com>
+Date:   Wed Nov 19 13:54:44 2025 +0000
+
+    file upload from github website file check
+
+commit 81dfa2b9ba035e5d7a833c832ea9796e9bc23bc0
+Author: Ouassim Ahmed Ramy Chelghoum <oc24aan@herts.ac.uk>
+Date:   Wed Nov 19 13:19:35 2025 +0000
+
+    Update Ouassim-Questions.txt
+
+commit a09f001c62a680e02a00baf888b0d6cffe678161
+Author: Ouassim Ahmed Ramy Chelghoum <oc24aan@herts.ac.uk>
+Date:   Wed Nov 19 13:12:07 2025 +0000
+
+    Create Ouassim-Questions.txt
+
+commit e1c18d7b10036a4d0e498f7f469acf8d123bc5f0
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Wed Nov 19 12:47:09 2025 +0000
+
+    Research Question selected and Presentation created.
+
+commit 58232897c4c84eef84a28e2d66b20e5008fea672
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Wed Nov 19 11:40:40 2025 +0000
+
+    Among selected!
+
+commit de5f74fdac7414c6ffb06f7020fab87cdc727286
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Wed Nov 19 11:36:32 2025 +0000
+
+    Question 4.1 Added !!
+
+commit 7feb206d83f85c56c221dde1baba44baa1bbf070
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Wed Nov 19 10:27:30 2025 +0000
+
+    Presentation template added
+
+commit 04575c01e93ee36b76bc13e3a4530293d6cd5ceb
+Author: Jayakumar Mahesh <jm25acy@herts.ac.uk>
+Date:   Tue Nov 18 22:30:21 2025 +0000
+
+    Jayakumar Question file
+
+commit c2309e683c61ba3a99b613fbbc0ba16fc0cab15c
+Author: Jayakumar Mahesh <jm25acy@herts.ac.uk>
+Date:   Tue Nov 18 21:24:49 2025 +0000
+
+    Jayakumar Question File
+
+commit 927d1e5599826fef6015bb1548707da1d503065c
+Author: Jayakumar Mahesh <jm25acy@herts.ac.uk>
+Date:   Tue Nov 18 21:20:42 2025 +0000
+
+    Jayakumar Question File
+
+commit 1dac8e87a456b74b7204cd156b5256952b3d55c1
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Mon Nov 17 11:19:03 2025 +0000
+
+    revFarbod file Deleted
+
+commit 65abfd90126b6055d07469e8d519f77f1bb7b169
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Mon Nov 17 10:59:04 2025 +0000
+
+    Farbod Question File Added
+
+commit 3e3563455a8db77ff58de5bf027948ef27732754
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Mon Nov 17 10:30:07 2025 +0000
+
+    Add research questions and hypothesis template
+
+commit 8884d4b603b2ffd4f8c375fcb3d4b382aa1c6234
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Mon Nov 17 10:29:13 2025 +0000
+
+    Add research questions Danial
+
+commit ef32508af84bd40eac67297fa95d3a66db7553ec
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Sun Nov 16 17:25:47 2025 +0000
+
+    feat: Load 'london_weather.csv' dataset using readr
+
+commit 4155dcdc050eeb93fff3b1a53188a1fa79a06ec5
+Author: danialza <dz24aaf@herts.ac.uk>
+Date:   Mon Nov 10 09:55:01 2025 +0000
+
+    feat: Add initial project structure and data
+    
+    - Upload all raw project files
+    - Add the group dataset
+    - Initialize R project file (.Rproj)
+
+commit 8f7a2c58bb6085f15698b17f3b69c7ac84361bab
+Author: Ouassim Ahmed Ramy Chelghoum <oc24aan@herts.ac.uk>
+Date:   Thu Oct 30 00:48:34 2025 +0100
+
+    Initial commit
