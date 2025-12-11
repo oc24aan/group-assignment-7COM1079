@@ -62,21 +62,34 @@ hist(df$precipitation[df$season == "Autumn"],
      las = 1,
 )
 
+# histogram with curve Figure 1 
 
-hist(df$precipitation, 
-     main = "Histogram of Daily Precipitation", 
-     xlab = "Precipitation (mm)", 
-     ylab = "Frequency",
-     col = "darkorchid2", 
-     breaks = 50,
-     ylim = c(0, 12000),
-     las = 1,
+png("seasonal_precipitation_histogram_with_curves.png",width = 800, height = 600)
+
+h <- hist(df$precipitation, 
+          main = "Histogram of Daily Precipitation in London by Season from 1979 to 2020", 
+          xlab = "Precipitation (mm)", 
+          ylab = "Frequency",
+          col = "cornflowerblue", 
+          breaks = 50,
+          xlim = c(0, 70),
+          ylim = c(0, 12000),
+          las = 1
 )
 
-curve(dnorm(x, mean(df$precipitation, na.rm = TRUE), sd(df$precipitation, na.rm = TRUE)), 
-      col = "blue", 
-      lwd = 2,      
-      add = TRUE)
+# Normal Curve with proper scale
+
+x_lines <- seq(min(df$precipitation), 70, length = 100)
+y_lines <- dnorm(x_lines, mean = mean(df$precipitation), sd = sd(df$precipitation))
+bin_width <- h$breaks[2] - h$breaks[1]
+y_scaled <- y_lines * length(df$precipitation) * bin_width
+lines(x_lines, y_scaled, col = "red", lwd = 2)
+
+dev.off()
+
+# box plot Figure 2
+
+png("box_plot.png",width = 800, height = 600)
 
 boxplot(precipitation ~ season, data = df,
         main = "Daily Precipitation in London by Season from 1979 to 2020",
@@ -85,20 +98,15 @@ boxplot(precipitation ~ season, data = df,
         col = c("orange", "lightgreen", "lightblue", "lightgray"),
         border = "black")
 
+dev.off()
+
+# Table 1
+
 tapply(df$precipitation, df$season, summary)
 
 # Pairwise Wilcoxon Test
 
 pairwise.wilcox.test(df$precipitation, df$season, p.adjust.method = "holm")
  
-test_result <- pairwise.wilcox.test(df$precipitation, df$year, p.adjust.method = "holm")
-y_table <- test_result$p.value
-print(y_table)
-write.csv(y_table, "Danial/year_p_values.csv")
-
-test_result <- pairwise.wilcox.test(df$precipitation, df$season_year, p.adjust.method = "holm")
-sy_table <- test_result$p.value
-print(sy_table)
-write.csv(sy_table, "Danial/season_year_p_values.csv")
 
 
